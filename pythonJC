@@ -1,0 +1,21 @@
+name = "Jorge Cervantes"
+iD = "2053827"
+summerPlans = []
+
+summerPlans.append("Get a job")
+summerPlans.append("Make money")
+summerPlans.append("Spend time with family and friends")
+
+print ("My name is " + name + ".")
+
+print ("My Student ID is " + iD + ".")
+
+print (name[0])
+print (name[1])
+print (name[2])
+print (name[3])
+print (name[4])
+
+print ("My name all capitalized is " + name.upper() + ".")
+
+print ("This summer, I plan to " + (', '.join(summerPlans)) + ".")
